@@ -1,0 +1,6 @@
+const king= "♚"
+const queen="♛"
+const rook="♜"
+const knight="♞"
+const bishop="♝"
+const pon="♟︎"
