@@ -1,0 +1,29 @@
+#searchBar>form {
+    display: flex;
+}
+
+input {
+    margin-left: 5%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    /* Adjust the radius value as needed */
+    width: 300px;
+    outline: none
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    /* Adjust the radius value as needed */
+    cursor: pointer;
+}
+
+.search-button svg {
+    transition: fill 0.3;
+}
+
+.search-button:hover svg {
+    fill: gray;
+}

@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+}
+
+#destinations {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+.destination {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: 10px;
+    height: 600px;
+}
+
+.destination img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}

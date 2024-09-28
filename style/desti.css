@@ -1,0 +1,57 @@
+iframe {
+    width: 700px;
+    height: 500px;
+    margin: 0 10%;
+    border: 10px solid aquamarine;
+    border-radius: 10%;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.parc {
+    background-color: aquamarine;
+    display: grid;
+    margin: 0 100px;
+    grid-template-columns: auto 1fr;
+
+    column-gap: 10px;
+    border: 1px solid rgb(180, 178, 178);
+    border-radius: 10px;
+}
+
+.parc:hover {
+    border: 1px solid rgb(180, 178, 178);
+    box-shadow: 0 0 10px rgb(146, 145, 145);
+}
+
+.parc a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.parc a:hover {
+    text-decoration: underline;
+    color: rgb(58, 58, 58);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+#listOfParcs {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 20%;
+
+}
+
+#listOfParcs>div {
+    margin: 5%;
+}

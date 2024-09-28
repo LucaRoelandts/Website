@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Park</title>
+    <link rel="stylesheet" href="../style/park.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="park.js"></script>
+
+</head>
+
+<body>
+    <div class="grid">
+        <div class="headNav">
+            <header>
+                <img src="../DataBase/TripAdvisor.jpg" alt="Logo" id="Logo">
+                <h1> Amusement Park Review</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Accueil</a></li>
+                    <li> <a href="recherche.html">Recherche de parc</a></li>
+                    <li> <a href="AnnuaireDestination.html">AnnuaireDestination</a></li>
+                    <li id="contact"> <a href="recherche.html">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div id="typeCheckboxes">
+                <input type="checkbox" id="arcadeCheckbox" value="Arcade">
+                <label for="arcadeCheckbox">Arcade</label><br>
+                <input type="checkbox" id="coasterCheckbox" value="Coaster">
+                <label for="coasterCheckbox">Coaster</label><br>
+                <input type="checkbox" id="darkRideCheckbox" value="DarkRide">
+                <label for="darkRideCheckbox">Dark Ride</label><br>
+                <input type="checkbox" id="exhibitCheckbox" value="Exhibit">
+                <label for="exhibitCheckbox">Exhibit</label><br>
+                <input type="checkbox" id="exploreCheckbox" value="Explore">
+                <label for="exploreCheckbox">Explore</label><br>
+                <input type="checkbox" id="kidsRideCheckbox" value="Kids Ride">
+                <label for="kidsRideCheckbox">Kids Ride</label><br>
+                <input type="checkbox" id="rideCheckbox" value="Ride">
+                <label for="rideCheckbox">Ride</label><br>
+                <input type="checkbox" id="showCheckbox" value="Show">
+                <label for="showCheckbox">Show</label><br>
+                <input type="checkbox" id="transportCheckbox" value="Transport">
+                <label for="transportCheckbox">Transport</label><br>
+                <input type="checkbox" id="waterRideCheckbox" value="Water Ride">
+                <label for="waterRideCheckbox">Water Ride</label><br>
+            </div>
+
+            <button id="filterButton">filtrer</button>
+
+            <div id="attractions">
+                <div class="attraction parc1 Ride">Attraction 1 (Ride)</div>
+                <div class="attraction parc1 DarkRide">Attraction 2 (Dark Ride)</div>
+                <!-- Ajoutez d'autres attractions pour le parc 1 -->
+                <div class="attraction parc2 Ride">Attraction 3 (Ride)</div>
+                <div class="attraction parc2 Arcade">Attraction 4 (Arcade)</div>
+                <!-- Ajoutez d'autres attractions pour le parc 2 -->
+            </div>
+
+        </main>
+
+        <footer>
+            <h2>Roelandts Luca - 2024 - WEB4</h2>
+        </footer>
+    </div>
+</body>
+
+</html>
